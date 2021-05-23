@@ -1,0 +1,632 @@
+body{
+  margin: 0 0 0 0;
+}
+
+  /* スマホ(min:600px) ---------------------------------------------------------------------*/
+  /* 固定ヘッダー */
+    .title{
+      margin-left: 5px;
+      margin-right: 13%;
+      margin-top: 30px;
+      font-size: 20px;
+    }
+
+    .hl{
+      list-style: none;
+      float: left;
+      margin-top: 20px;
+      margin-right: 12px;
+      font-size: 13px;
+    }
+
+    header{
+      display: block;
+      top: 0;
+      left: 0;
+      position: fixed;
+      height: 70px;
+      width: 100%;
+      margin: 0 0 0 0;
+    }
+
+    .hcontainer{
+      display: flex;
+      width: 100%;
+    }
+
+    nav{
+      float: right;
+    }
+
+    /* block1 */
+    .block1{
+      padding-top: 65px;
+      right: 0;
+      left: 0;
+      height: 600px;
+      /* 背景 */
+      background-image: url(chalkboard-black-pattern-01.jpg);
+    }
+
+    /* block2 */
+
+    .block2{
+      text-align: center;
+    }
+
+    .knot{
+      height: 100px;
+      width: auto;
+      margin-left: 35%;
+    }
+
+     /* 表 */
+     .hyou{
+      width: 100px;
+      left: 0;
+    }
+
+    .list{
+      font-size: 18px;
+    }
+
+    tr{
+      width: 100px;
+    }
+    .skllist{
+      width: 225px;
+      margin-right: 40%;
+      margin-left: 38px;
+    }
+
+    .plflist{
+      width: 290px;
+      margin-right: 40%;
+      margin-left: 60px;
+    }
+
+    .tdl{
+      text-align: right;
+      width: 80px;
+    }
+
+    .tdr{
+      text-align: left;
+      padding-left: 25px;
+    }
+
+    .skll{
+      text-align: right;
+      width: 21px;
+    }
+
+    .sklr{
+      text-align: right;
+      padding-left: 20px;
+      width: 50px;
+    }
+
+    .skl{
+      margin-top: 20px;
+    }
+
+
+    /* 表 */
+
+    /* block3 */
+
+    .wkimg{
+      height: 300px;
+      width: auto;
+    }
+
+    .wks{
+      list-style: none;
+      font-size: 20px;
+    }
+
+
+    /* tablet縦------------------------------------------------------------------------------ */
+    @media (min-width:650px){
+      /* 固定ヘッダー */
+       .title{
+         margin-left: 5%;
+         margin-right: 20%;
+         margin-top: 17px;
+         font-size: 30px;
+        }
+    
+        .hl{
+          list-style: none;
+          float: left;
+          margin-top: 10px;
+          margin-right: 20px;
+          font-size: 20px;
+        }
+    
+        header{
+          display: block;
+          top: 0;
+          left: 0;
+          position: fixed;
+          height: 60px;
+          width: 100%;
+          margin: 0 0 0 0;
+        }
+    
+        /* block1 */
+        .block1{
+          padding-top: 65px;
+          right: 0;
+          left: 0;
+          height: 600px;
+          /* 背景 */
+          background-image: url(chalkboard-black-pattern-01.jpg);
+    }
+    
+        /* block2 */
+        .block2{
+          text-align: center;
+        }
+
+        .hyou{
+          display: flex;
+          flex-direction: column;
+        }
+
+        .b2h1{
+          margin-top: 30px;
+        }
+
+        .b2h2{
+          margin-bottom: 35px;
+        }
+
+        .knot{
+          height: 200px;
+          width: auto;
+          margin-right: 1%;
+          margin-left: 4%;
+        }
+
+         /* 表 */
+         .hyou{
+          width: 400px;
+          left: 0;
+        }
+    
+        .list{
+          font-size: 20px;
+        }
+
+        tr{
+          width: 100px;
+        }
+        .skllist{
+          width: 200px;
+          margin-right: 40%;
+          margin-left: 0;
+        }
+    
+        .plflist{
+          width: 643px;
+          margin-right: 40%;
+          margin-left: 23px;
+        }
+    
+        .tdl{
+          text-align: right;
+          width: 90px;
+        }
+    
+        .tdr{
+          text-align: left;
+          padding-left: 20px;
+        }
+    
+        .skll{
+          text-align: right;
+          width: 21px;
+        }
+    
+        .sklr{
+          text-align: right;
+          padding-left: 22px;
+          width: 25px;
+        }
+    
+        .skl{
+          margin-top: 20px;
+        }
+    
+    
+        /* 表 */
+
+        .wkimg{
+          height: 500px;
+          width: auto;
+        }
+
+        .wks{
+          font-size: 25px;
+        }
+
+      }
+    
+
+  /* tablet,1/2PC -----------------------------------------------------------------------------*/
+@media (min-width:783px){
+  /* 固定ヘッダー */
+   .title{
+     margin-left: 5%;
+     margin-right: 35%;
+     margin-top: 16px;
+     font-size: 30px;
+    }
+
+    .hl{
+      list-style: none;
+      float: left;
+      margin-top: 10px;
+      margin-right: 30px;
+    }
+
+    header{
+      display: block;
+      top: 0;
+      left: 0;
+      position: fixed;
+      height: 60px;
+      width: 100%;
+      margin: 0 0 0 0;
+    }
+
+    /* block1 */
+    .block1{
+      padding-top: 65px;
+      right: 0;
+      left: 0;
+      height: 600px;
+      /* 背景 */
+      background-image: url(chalkboard-black-pattern-01.jpg);
+    }
+
+    /* block2 */
+
+    .b2h1{
+      margin-bottom: 50px;
+      margin-top: 80px;
+      font-size: 45px;
+    }
+
+    .b2h2{
+      font-size: 30px;
+    }
+
+    .knot{
+      height: 200px;
+      width: auto;
+      margin-right: 2%;
+      margin-left: 18%;;
+    }
+
+     /* 表 */
+     .hyou{
+      width: 100px;
+      left: 0;
+    }
+
+    .list{
+      font-size: 22px;
+    }
+
+    tr{
+      width: 100px;
+    }
+    .skllist{
+      width: 200px;
+      margin-right: 40%;
+      margin-left: 0;
+    }
+
+    .plflist{
+      width: 400px;
+      margin-right: 40%;
+    }
+
+    .tdl{
+      text-align: right;
+      width: 100px;
+    }
+
+    .tdr{
+      text-align: left;
+      padding-left: 30px;
+    }
+
+    .skll{
+      text-align: right;
+      width: 21px;
+      margin-left: 0;
+    }
+
+    .sklr{
+      text-align: right;
+      padding-left: 35px;
+      width: 50px;
+    }
+
+    .skl{
+      margin-top: 20px;
+    }
+
+    /* 表 */
+
+    .block2{
+      margin-bottom: 60px;
+    }
+
+    /* block3 */
+
+    .wkimg{
+      height: 600px;
+      width: auto;
+    }
+
+    .wks{
+      font-size: 28px;
+    }
+
+    .b3h1{
+      font-size: 45px;
+    }
+
+  }
+
+  /* PC --------------------------------------------------------------------------------------------------*/
+@media (min-width:1200px) {
+  /* 固定ヘッダー */
+    .title{
+      margin-left: 5%;
+      margin-right: 48%;
+      margin-top: 22px;
+      font-size: 40px;
+    }
+
+     .hl{
+      list-style: none;
+      float: left;
+      margin-top: 21px;
+      margin-right: 40px;
+      font-size: 25px;
+     }
+
+      header{
+       display: block;
+       top: 0;
+       left: 0;
+       position: fixed;
+       height: 80px;
+       width: 100%;
+       margin: 0 0 0 0;
+       
+      }
+
+       /* block1 */
+      .block1{
+        padding-top: 65px;
+        right: 0;
+        left: 0;
+        height: 600px;
+        /* 背景 */
+        background-image: url(chalkboard-black-pattern-01.jpg);
+      }
+
+      /* block2 */
+
+
+      .b2h1{
+        margin-bottom: 50px;
+        margin-top: 80px;
+        font-size: 50px;
+      }
+
+      .b2h2{
+        font-size: 35px;
+      }
+
+      .knot{
+        height: 250px;
+        width: auto;
+        margin-left: 28%;
+        margin-right: 1%;
+      }
+
+       /* 表 */
+
+      .hyou{
+        width: 100px;
+        left: 0;
+      }
+
+      .list{
+        font-size: 25px;
+      } 
+     
+
+      tr{
+        width: 100px;
+      }
+      .skllist{
+        width: 340px;
+        margin-right: 40%;
+        margin-left: 0px;
+      }
+
+      .plflist{
+        width: 643px;
+        margin-right: 40%;
+      }
+
+      .tdl{
+        text-align: right;
+        width: 130px;
+      }
+
+      .tdr{
+        text-align: left;
+        padding-left: 50px;
+      }
+
+      .skll{
+        text-align: right;
+        width: 21px;
+      }
+
+      .sklr{
+        text-align: right;
+        padding-left: 40px;
+        width: 50px;
+      }
+
+      .skl{
+        margin-top: 20px;
+      }
+      /* 表 */
+
+      .block2{
+        margin-bottom: 150px;
+      }
+
+      /* block3 */
+
+      .b3h1{
+        font-size: 50px;
+      }
+
+      .wkimg{
+        height: 800px;
+        width: auto;
+      }
+
+      .wks{
+        font-size: 30px;
+      }
+
+}
+
+
+
+/* ↓ここから@media未処理↓---------------------------------------------------------- */
+
+  /* 背景 */
+body{
+  background  : linear-gradient(to right, #d8d8d8, #ffffff, #d8d8d8);
+}
+
+header{
+  background  : linear-gradient(to bottom, #95caff, rgba(13, 134, 255, 0.95));
+}
+
+  /* フォント */
+html{
+  font-family: "Meiryo";
+}
+
+.hl{
+  font-family: Helvetica;
+}
+
+.title{
+  font-family: Helvetica;
+}
+
+.b1t{
+  font-family: "Mv Boli";
+}
+
+.b2h1{
+  font-family: cursive;
+}
+
+.b2h2{
+  font-family: cursive;
+}
+
+.b3h1{
+  font-family: cursive;
+}
+
+footer{
+  font-family: "Comic Sans MS";
+  color: white;
+}
+
+/* リンク */
+a{
+  text-decoration: none;
+  color: black;
+}
+
+  /*b1 */
+.b1t{
+  color: white;
+  text-align: center;
+  margin-top: 240px;
+}
+
+
+
+  /* b2 */
+.profile{
+  float: left;
+}
+
+.knot{
+  border: 2px solid rgb(84, 139, 172);
+}
+
+  /* block3 */
+
+.block3{
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.b3h1{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.b3ul{
+  padding: 0 0 0 0;
+}
+
+
+.wkimg{
+  border: 2px solid rgb(84, 139, 172);
+  margin-top: 15px;
+}
+
+
+/* footer */
+footer{
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+footer{
+  height: 30px;
+  background-color: black;
+  bottom: 0;
+}
+
+.ftr{
+  margin-bottom: 0;
+  padding-top: 3px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+}
+

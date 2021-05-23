@@ -1,0 +1,322 @@
+body{
+  margin: 0 0 0 0;
+}
+
+  /* スマホ(min:600px) ---------------------------------------------------------------------*/
+  /* 固定ヘッダー */
+    .title{
+      margin-left: 5px;
+      margin-right: 13%;
+      margin-top: 30px;
+      font-size: 20px;
+    }
+
+    .hl{
+      list-style: none;
+      float: left;
+      margin-top: 20px;
+      margin-right: 12px;
+      font-size: 13px;
+    }
+
+    header{
+      display: block;
+      top: 0;
+      left: 0;
+      position: fixed;
+      height: 70px;
+      width: 100%;
+      margin: 0 0 0 0;
+    }
+
+    .hcontainer{
+      display: flex;
+      width: 100%;
+    }
+
+    nav{
+      float: right;
+    }
+
+    form{
+      margin: 0 auto;
+      width: 300px;
+      
+      padding: 1em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+    }
+
+
+
+    /* tablet縦------------------------------------------------------------------------------ */
+    @media (min-width:650px){
+      /* 固定ヘッダー */
+       .title{
+         margin-left: 5%;
+         margin-right: 20%;
+         margin-top: 17px;
+         font-size: 30px;
+        }
+    
+        .hl{
+          list-style: none;
+          float: left;
+          margin-top: 10px;
+          margin-right: 20px;
+          font-size: 20px;
+        }
+    
+        header{
+          display: block;
+          top: 0;
+          left: 0;
+          position: fixed;
+          height: 60px;
+          width: 100%;
+          margin: 0 0 0 0;
+        }
+
+        form{
+          margin: 0 auto;
+          width: 500px;
+          
+          padding: 1em;
+          border: 1px solid #CCC;
+          border-radius: 1em;
+        }
+    
+      }
+    
+
+  /* tablet,1/2PC -----------------------------------------------------------------------------*/
+@media (min-width:783px){
+  /* 固定ヘッダー */
+   .title{
+     margin-left: 5%;
+     margin-right: 35%;
+     margin-top: 16px;
+     font-size: 30px;
+    }
+
+    .hl{
+      list-style: none;
+      float: left;
+      margin-top: 10px;
+      margin-right: 30px;
+    }
+
+    header{
+      display: block;
+      top: 0;
+      left: 0;
+      position: fixed;
+      height: 60px;
+      width: 100%;
+      margin: 0 0 0 0;
+    }
+
+    form{
+      margin: 0 auto;
+      width: 500px;
+      
+      padding: 1em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+    }
+
+    .exp{
+      font-size: 25px;
+    }
+
+
+  }
+
+  /* PC --------------------------------------------------------------------------------------------------*/
+@media (min-width:1200px) {
+  /* 固定ヘッダー */
+    .title{
+      margin-left: 5%;
+      margin-right: 48%;
+      margin-top: 22px;
+      font-size: 40px;
+    }
+
+     .hl{
+      list-style: none;
+      float: left;
+      margin-top: 21px;
+      margin-right: 40px;
+      font-size: 25px;
+     }
+
+      header{
+       display: block;
+       top: 0;
+       left: 0;
+       position: fixed;
+       height: 80px;
+       width: 100%;
+       margin: 0 0 0 0;
+       
+      }
+
+
+      /* block3 */
+
+      .b3h1{
+        font-size: 50px;
+      }
+
+      form{
+        margin: 0 auto;
+        width: 500px;
+        
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+      }
+
+      .exp{
+        font-size: 25px;
+      }
+
+}
+
+
+
+/* ↓ここから@media未処理↓---------------------------------------------------------- */
+
+  /* 背景 */
+body{
+  background  : linear-gradient(to right, #d8d8d8, #ffffff, #d8d8d8);
+}
+
+header{
+  background  : linear-gradient(to bottom, #95caff, rgba(13, 134, 255, 0.95));
+}
+
+  /* フォント */
+html{
+  font-family: "Meiryo";
+}
+
+.hl{
+  font-family: Helvetica;
+}
+
+.title{
+  font-family: Helvetica;
+}
+
+.b1t{
+  font-family: "Mv Boli";
+}
+
+.b2h1{
+  font-family: cursive;
+}
+
+.b2h2{
+  font-family: cursive;
+}
+
+.b3h1{
+  font-family: cursive;
+}
+
+footer{
+  font-family: "Comic Sans MS";
+  color: white;
+}
+
+/* リンク */
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.twitter{
+  color: #59acff;
+  text-decoration-line: underline;
+}
+
+
+  /* block3 */
+
+.block3{
+  margin: 0 0 0 0;
+}
+
+.b3h1{
+  margin-top: 110px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.exp{
+  text-align: center;
+}
+
+/* form */
+
+
+.ful{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li{
+  margin-top: 1em;
+}
+
+label{
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,textarea{
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border:  1px solid #999
+}
+
+input:focus,textarea:focus{
+  border-color: black;
+}
+
+textarea{
+  vertical-align: top;
+  height: 5em;
+}
+
+.button{
+  text-align: right;
+}
+
+
+
+/* footer */
+footer{
+  text-align: center;
+  margin-top: 50px;
+  width: 100%;
+}
+
+
+footer{
+  height: 30px;
+  background-color: black;
+  bottom: 0;
+}
+
+.ftr{
+  margin-bottom: 0;
+  padding-top: 3px;
+  margin-right: 0;
+  margin-left: 0;
+  width: 100%;
+}
